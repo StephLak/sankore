@@ -27,7 +27,7 @@ class DataProvider extends ChangeNotifier {
       }
     } catch (e) {
       notifyListeners();
-      print(e);
+      // print(e);
     }
   }
 
@@ -49,7 +49,7 @@ class DataProvider extends ChangeNotifier {
       }
     } catch (e) {
       notifyListeners();
-      print(e);
+      // print(e);
     }
   }
 
@@ -65,7 +65,7 @@ class DataProvider extends ChangeNotifier {
       notifyListeners();
     } catch (e) {
       notifyListeners();
-      print(e);
+      // print(e);
     }
   }
 }
